@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>InnoClima</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+        <link rel="shortcut icon" href="/icons/icons8-sun-48.png" type="image/x-icon">
+</head>
+<body>
+        
+        <main id="main">
+          <article>
+          <header>
+               InnoClima
+          </header>
+          
+           <aside>
+                <input type="text" placeholder="Entre com nome de uma Cidade" id="entrada" autofocus>
+                <button id="btn">Buscar</button>
+           </aside>
+           <aside> 
+                <img id="img"  src="/icons/icons8-snowy-sunny-day-48.png" alt="img">
+                <h2 id="cidade"></h2>
+           </aside>
+            <table>
+              <thead>
+                <th><h3>Temperatura</h3></th>
+                 <th><h3>Humidade</h3></th>
+                 <th><h3>Preciptação</h3></th>
+                 <th><h3>Hora</h3></th>
+              </thead>
+              <tbody>
+              <th><span id="temperatura">0</span><sup>o</sup> </span></th>
+              <th><span id="humidade">0</span></th>
+              <th><span id="preciptacao">0</span></th>
+              <th><span id="hora">00:00</span></th>
+              </tbody>
+            </table>
+                
+          </article>
+        
+        </main>
+
+        <div id="aviso">
+                 <img src="/icons/avis.png" alt="">
+                 <h1>Aviso</h1>
+                 <p id="texto">Para obter o clima de uma cidade é necessário que entres com o nome da cidade</p>
+                 <button id="btn2">OK</button>
+           
+        </div>
+        
+</body>
+</html>
